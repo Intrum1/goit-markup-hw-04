@@ -335,7 +335,6 @@ background-size: cover;
 .container-pocada {
         padding: 32px 16px;
         padding: 32px 0;
-
 }
 
 .subtitle-team {
@@ -356,10 +355,7 @@ background-size: cover;
         text-align: center;
 }
 
-.container-icons {
-        padding: 32px 0;
 
-}
 .icon-list {
         display: flex;
         justify-content: center;
@@ -379,16 +375,12 @@ background-size: cover;
         display: flex;
         justify-content: center;     
 }
-.icon-link:hover {
+.icon-link:hover, .icon-link:focus {
         background-color: #404bbf;
 
 }
 
-.icon-link:focus {
-        background-color: #404bbf;
-
-}
-
+ 
 .svg-icon {
         fill:#f4f4fd;     
 }
@@ -425,18 +417,14 @@ background-size: cover;
         justify-content: center;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-.link-customers:hover {
+.link-customers:hover, .link-customers:focus {
         border-color: #404bbf;
         color: #404bbf;
 }
-.link-customers:focus {
-        border-color: #404bbf; 
-        color: #404bbf; 
 
-}
-
-        }
+        
 .icon-customers {
         fill: currentColor;
 }
