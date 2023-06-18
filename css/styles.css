@@ -431,7 +431,9 @@ background-size: cover;
         fill: currentColor;
 }
 
-/**------------------- SECOND PAGE-------------- */
+/**------------------- PORTFOLIO -------------- */
+
+/*! --------------PORTFOLIO HEADER---------------- */
 
 .hero-portfolio {
         padding-top: 96px; 
@@ -478,11 +480,24 @@ background-size: cover;
 /* -------------ROW-1 -------*/
 
 .menu-item-link {
+        position: relative;
+        overflow: hidden;
 
 }
 .menu-item-text {
-        
+        font-size: 16px;
+        position: absolute;
+        top: 0;
+        line-height: 1.5; 
+        letter-spacing: 0.02em;
+        color:  var(--background-team-color); 
+        padding: 40px 32px; 
+        background-color: #4d5ae5;
+        height: 100%;
+        transform: translateY(100%); 
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
 
 .hero-projects {
         display: flex;
@@ -520,6 +535,7 @@ background-size: cover;
 
 .item-link {
         display: block;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .item-link:hover,
